@@ -1,6 +1,6 @@
 const CACHE_VERSION = '1.3';
 
-const staticAssets = ['index.html', 'lib/bulma.min.css', 'styles.css', 'main.js'];
+const staticAssets = ['app', 'index.html', 'lib/bulma.min.css', 'styles.css', 'main.js'];
 
 self.addEventListener('install', e => {
   const addedCachePromise = caches.open(`static-${CACHE_VERSION}`).then(cache => {
