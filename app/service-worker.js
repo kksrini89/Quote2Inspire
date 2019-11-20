@@ -1,4 +1,4 @@
-const CACHE_VERSION = '1.3';
+const CACHE_VERSION = '1.4';
 
 const staticAssets = ['index.html', 'lib/bulma.min.css', 'styles.css', 'main.js', 'icons/**', 'manifest.json'];
 
