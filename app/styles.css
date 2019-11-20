@@ -1,0 +1,9 @@
+/* custom styles */
+
+ul.quotes {
+    list-style-type: none;
+}
+
+ul.quotes li {
+    margin: 20px;
+}
